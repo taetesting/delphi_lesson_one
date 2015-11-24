@@ -1,0 +1,37 @@
+object frmMain: TfrmMain
+  Left = 1000
+  Height = 240
+  Top = 169
+  Width = 320
+  Caption = 'frmMain'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '1.4.4.0'
+  object btnSubmit: TButton
+    Left = 47
+    Height = 32
+    Top = 51
+    Width = 73
+    Caption = 'Click Here'
+    OnClick = btnSubmitClick
+    TabOrder = 0
+  end
+  object btnSendKey: TButton
+    Left = 144
+    Height = 32
+    Top = 51
+    Width = 84
+    Caption = 'Send Key'
+    OnClick = btnSendKeyClick
+    TabOrder = 1
+  end
+  object btnGetHandler: TButton
+    Left = 16
+    Height = 59
+    Top = 115
+    Width = 199
+    Caption = 'Get Handler'
+    OnClick = btnGetHandlerClick
+    TabOrder = 2
+  end
+end
